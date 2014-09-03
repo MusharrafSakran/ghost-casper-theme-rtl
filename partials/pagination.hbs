@@ -1,0 +1,7 @@
+<nav class="pagination" role="navigation">
+   
+	{{#if pagination.prev}}<a class="newer-posts" href="/page/{{pagination.prev}}" title="Previous">السابق</a>{{/if}}
+    <span class="page-number">صفحة {{pagination.page}} من {{pagination.pages}}</span>
+	{{#if pagination.next}}<a class="older-posts" href="/page/{{pagination.next}}" title="Next">التالي</a>{{/if}}
+   
+</nav>
