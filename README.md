@@ -1,8 +1,28 @@
-# Casper
+# Casper-RTL
 
-The default theme for [Ghost](http://github.com/tryghost/ghost/).
+The RTLized default theme for [Ghost](http://github.com/tryghost/ghost/).
 
-To download, visit the [releases](https://github.com/TryGhost/Casper/releases) page.
+- This is the RTLizes version for default theme (casper) for ghost blogging platform.
+- this theme customization is campatible with ghost-0.5.0 version (at least at this time).
+- this custom theme is fully translated to Arabic, if you want another RTL language-based so it's so easy, you just have to translate the Arabic static stuff inside the HTML components to your preferred language without any affect in RTL bahavior.
+- Contributors are welcomed :) 
+- 
+
+## Installation:
+
+1- you have to have the ghost bundled folder from here https://ghost.org/download/ .
+2- unzip the folder.
+3- download node.js from here http://nodejs.org/ .
+4- after installing node.js open the node.js command prompt.
+5- go to the ghost home folder.
+6- install ghost by typing this command ( npm install --production ).
+7- run the server by typing this command ( npm start ).
+8- put this theme inside GHOST_HOME/content/themes
+9- access to the blog by using your account by hitting localhost\2368\ghost .
+10- go to Setting and change the selected theme to this theme.
+11- enjoy the RTL :)
+
+
 
 ## Copyright & License
 
