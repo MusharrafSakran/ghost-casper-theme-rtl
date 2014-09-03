@@ -10,17 +10,17 @@ The RTLized default theme for [Ghost](http://github.com/tryghost/ghost/).
 
 ## Installation:
 
-1- you have to have the ghost bundled folder from here https://ghost.org/download/ .
-2- unzip the folder.
-3- download node.js from here http://nodejs.org/ .
-4- after installing node.js open the node.js command prompt.
-5- go to the ghost home folder.
-6- install ghost by typing this command ( npm install --production ).
-7- run the server by typing this command ( npm start ).
-8- put this theme inside GHOST_HOME/content/themes
-9- access to the blog by using your account by hitting localhost\2368\ghost .
-10- go to Setting and change the selected theme to this theme.
-11- enjoy the RTL :)
+- you have to have the ghost bundled folder from here https://ghost.org/download/ .
+- unzip the folder.
+- download node.js from here http://nodejs.org/ .
+- after installing node.js open the node.js command prompt.
+- go to the ghost home folder.
+- install ghost by typing this command ( npm install --production ).
+- run the server by typing this command ( npm start ).
+- put this theme inside GHOST_HOME/content/themes
+- access to the blog by using your account by hitting localhost\2368\ghost .
+- go to Setting and change the selected theme to this theme.
+- enjoy the RTL :)
 
 
 
