@@ -5,7 +5,8 @@ The RTLized default theme for [Ghost](http://github.com/tryghost/ghost/).
 - This is the RTLizes version for default theme (casper) for ghost blogging platform.
 - this theme customization is campatible with ghost-0.5.0 version (at least at this time).
 - this custom theme is fully translated to Arabic, if you want another RTL language-based so it's so easy, you just have to translate the Arabic static stuff inside the HTML components to your preferred language without any affect in RTL bahavior.
- Contributors are welcomed :) 
+ 
+Contributors are welcomed :) 
  
 
 ## Installation:
