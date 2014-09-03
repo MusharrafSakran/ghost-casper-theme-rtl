@@ -19,7 +19,7 @@ Contributors are welcomed :)
 - install ghost by typing this command ( npm install --production ).
 - run the server by typing this command ( npm start ).
 - put this theme inside GHOST_HOME/content/themes
-- access to the blog by using your account by hitting localhost:2368/ghost .
+- access to the blog by using your account by hitting http://localhost:2368/ghost .
 - go to Settings and change the selected theme to this theme.
 - enjoy the RTL :)
 
