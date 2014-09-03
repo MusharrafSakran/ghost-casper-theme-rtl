@@ -20,7 +20,7 @@ Contributors are welcomed :)
 - run the server by typing this command ( npm start ).
 - put this theme inside GHOST_HOME/content/themes
 - access to the blog by using your account by hitting localhost\2368\ghost .
-- go to Setting and change the selected theme to this theme.
+- go to Settings and change the selected theme to this theme.
 - enjoy the RTL :)
 
 
