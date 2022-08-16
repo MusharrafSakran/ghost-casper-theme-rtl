@@ -11,8 +11,8 @@
         <p>{{excerpt words="30"}} <a class="read-more" href="{{url}}">&raquo;</a></p>
     </section>
     <footer class="post-meta">
-        {{#if author.image}}<img class="author-thumb" src="{{author.image}}" alt="Author image" nopin="nopin" />{{/if}}
-        {{author}}
+        {{#if primary_author.profile_image}}<img class="author-thumb" src="{{primary_author.profile_image}}" alt="Author image" nopin="nopin" />{{/if}}
+        {{authors}}
         {{tags prefix=" في "}} 
         <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time> 
     </footer>

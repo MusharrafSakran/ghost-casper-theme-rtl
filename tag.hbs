@@ -2,10 +2,10 @@
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
 
 {{! The big featured header }}
-<header class="main-header tag-head {{#if @blog.cover}}" style="background-image: url({{@blog.cover}}){{else}}no-cover{{/if}}">
+<header class="main-header tag-head {{#if @site.cover}}" style="background-image: url({{@site.cover}}){{else}}no-cover{{/if}}">
     <nav class="main-nav overlay clearfix">
-        <a class="back-button iconextra-right-arrow" href="{{@blog.url}}">الرئيسية</a>
-        <a class="subscribe-button icon-feed" href="{{@blog.url}}/tag/{{tag.slug}}/rss/">{{tag.name}}</a>
+        <a class="back-button iconextra-right-arrow" href="{{@site.url}}">الرئيسية</a>
+        <a class="subscribe-button icon-feed" href="{{@site.url}}/tag/{{tag.slug}}/rss/">{{tag.name}}</a>
     </nav>
     <div class="vertical">
         <div class="main-header-content inner">
