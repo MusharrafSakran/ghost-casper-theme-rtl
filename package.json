@@ -1,4 +1,12 @@
 {
-  "name": "Casper",
-  "version": "1.0.0"
+  "name": "casper-rtl",
+  "version": "1.0.0",
+  "author": {
+    "email": "sabuein@servex.business"
+  },
+  "keywords": ["ghost", "theme", "ghost-theme"],
+  "config": {
+    "card_assets": true,
+    "posts_per_page": 9
+  }
 }

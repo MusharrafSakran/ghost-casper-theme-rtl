@@ -4,8 +4,8 @@
     the {body} of the default.hbs template, which contains our header/footer. }}
 
 <nav class="main-nav clearfix">
-    <a class="back-button iconextra-right-arrow" href="{{@blog.url}}">الرئيسية</a>
-    <a class="subscribe-button icon-feed" href="{{@blog.url}}/rss/">اشترك</a>
+    <a class="back-button iconextra-right-arrow" href="{{@site.url}}">الرئيسية</a>
+    <a class="subscribe-button icon-feed" href="{{@site.url}}/rss/">اشترك</a>
 </nav>
 
 <main class="content" role="main">
@@ -28,11 +28,11 @@
         <footer class="post-footer">
 
         {{! Everything inside the #author tags pulls data from the author }}
-        {{#author}}
+        {{#primary_author}}
 
-            {{#if image}}
+            {{#if feature_image}}
             <figure class="author-image">
-                <A class="img" href="{{url}}" style="background-image: url({{image}})"><span class="hidden">صور {{name}}</span></a>
+                <A class="img" href="{{url}}" style="background-image: url({{img_url}})"><span class="hidden">صور {{name}}</span></a>
             </figure>
             {{/if}}
 
@@ -51,7 +51,7 @@
                 </div>
             </section>
 
-        {{/author}}
+        {{/primary_author}}
 
             <section class="share">
                 <h4>شارك هذه التدوينة</h4>

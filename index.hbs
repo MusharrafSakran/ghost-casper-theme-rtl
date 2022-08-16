@@ -2,15 +2,15 @@
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
 
 {{! The big featured header }}
-<header class="main-header {{#if @blog.cover}}" style="background-image: url({{@blog.cover}}){{else}}no-cover{{/if}}">
+<header class="main-header {{#if @site.cover_image}}" style="background-image: url({{@site.cover_image}}){{else}}no-cover{{/if}}">
     <nav class="main-nav overlay clearfix">
-        {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>{{/if}}
-        <a class="subscribe-button icon-feed" href="{{@blog.url}}/rss/">اشترك</a>
+        {{#if @site.logo}}<a class="blog-logo" href="{{@site.url}}"><img src="{{@site.logo}}" alt="Site Logo" /></a>{{/if}}
+        <a class="subscribe-button icon-feed" href="{{@site.url}}/rss/">اشترك</a>
     </nav>
     <div class="vertical">
         <div class="main-header-content inner">
-            <h1 class="page-title">{{@blog.title}}</h1>
-            <h2 class="page-description">{{@blog.description}}</h2>
+            <h1 class="page-title">{{@site.title}}</h1>
+            <h2 class="page-description">{{@site.description}}</h2>
         </div>
     </div>
     <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">اذهب للأسفل</span></a>
